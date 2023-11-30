@@ -1,0 +1,58 @@
+/* Fill CSS here */
+
+div{
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: auto;
+    margin: auto;
+    box-shadow: rgba(160, 164, 168, 0.2) 0px 8px 24px;
+    padding: 40px;
+    
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    font-size: 39px;
+}
+
+table{
+    /* border: 2px solid green; */
+    border-collapse: collapse;
+    /* margin-left: 8px; */
+    /* display: flex; */
+    margin: auto;
+    margin-top: 0;
+}
+
+
+thead>tr>th{
+    border: 2px solid #eeeeee;
+    width: auto;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  height: auto;
+}
+
+table tr:nth-child(even) {
+    background-color: #8caacf;
+  }
