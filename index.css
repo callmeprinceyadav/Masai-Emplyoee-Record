@@ -13,7 +13,8 @@ form{
     margin: auto;
     box-shadow: rgba(160, 164, 168, 0.2) 0px 8px 24px;
     padding: 40px;
-    
+    /* margin-right: 10px;
+    margin-left: 10px; */
 }
 
 h1{
@@ -23,26 +24,28 @@ h1{
     font-size: 39px;
 }
 
-table{
-    /* border: 2px solid green; */
+table {
+    font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    /* margin-left: 8px; */
-    /* display: flex; */
+    width: 60%;
     margin: auto;
-    margin-top: 0;
-}
+    margin-top: 0px;
+    text-align: center;
+  }
 
-
-thead>tr>th{
+thead th{
     border: 2px solid #eeeeee;
     width: auto;
     color: white;
-    background-color: blue;
+    background-color:  #0468aa;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
+input{
+    padding: 5px;
+}
 
 
 table td,
